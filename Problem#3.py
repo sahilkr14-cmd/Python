@@ -1,3 +1,7 @@
+# You are given a nums[] array which can contain positive, negative, and zero.
+# You need to find a continuous subarray whose sum is maximum.
+# Return maximum sum, not the index of the subarray.
+
 def maxSubArray(nums):
     current_sum = nums[0]
     max_sum = nums[0]
