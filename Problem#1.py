@@ -12,4 +12,4 @@ def twosum(nums, target):
 
 nums = [2, 7, 11, 15]
 target = 18
-print(twosum(nums, target))  # Output: [0, 1]
+print(twosum(nums, target))
