@@ -11,5 +11,11 @@ class Solution:
             while not s.startswith(prefix):
                 prefix = prefix[:-1]
                 if not prefix:
-                    return ""
+                    return "No Common Prefix"
         return prefix
+
+
+
+print(Solution().longestCommonPrefix(strs = ["dog", "racecar", "car"])) 
+print(Solution().longestCommonPrefix(strs = ["flower", "flow", "flight"]))
+
