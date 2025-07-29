@@ -1,3 +1,5 @@
+# Remove Duplicates From Sorted Array
+
 class Solution:
     def removeDuplicates(self, nums):
         if not nums:
@@ -13,6 +15,6 @@ class Solution:
         return i + 1
 
 nums = [0,0,1,1,1,2,2,3,3,4]
-k = Solution().removeDuplicates(nums)
-print("k =", k)
-print("Modified nums =", nums[:k])
+k = Solution().removeDuplicates(nums) # It's Show How many Duplicates Are Removed.
+print("k =", k)                       # It's Show How many Duplicates Are Removed.
+print("Modified nums =", nums[:k])    # It's Give the Final Output
